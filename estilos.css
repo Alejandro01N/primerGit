@@ -26,6 +26,26 @@ h1{
     font-family: 'Rubik Dirt', cursive;
 }
 
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.experiencia i{
+    font-size: 70px;
+   background-color: blanchedalmond;
+   padding: 3px 14px;
+    border-radius: 50%;
+}
+
 
 .hero{
     margin-top: 50px;
@@ -52,6 +72,144 @@ h1{
     color: #615151;
 }
 
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.sobre-mi{
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+}
+
+.experiencia{
+    padding: 40px;
+}
+
+.experiencia .row .columna{
+    height: auto;
+    border: .7px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .row .columna:hover{
+    color: white;
+    background-color: #1b1b32;
+
+}
+
+
+.Experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.badges-contenedor{
+    padding-bottom: 40px ;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.badge{
+    margin: 3px;
+}
+
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease-in;
+}
+
+
+.proyectos-contenedor{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyectos{
+    position: relative;
+}
+
+.proyectos:hover img{
+    opacity: 0.2;
+}
+
+.proyectos:hover .overlay{
+    opacity: 1;
+
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+
+
+
+
 
 
 
@@ -65,7 +223,20 @@ osea menor a 767px oculto el icono */
 
 @media screen and ( min-width: 700px){
     .hero-inferior-imagen{
-        max-width: 600px
+        max-width: 600px;
     }
-};
+}
+
+@media screen and (max-width: 400px){
+    .overlay p{
+        font-size: 18px;
+    }
+
+    .overlay i{
+        font-size: 40px;
+    }
+}
+
+
+
     
