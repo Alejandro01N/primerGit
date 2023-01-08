@@ -27,16 +27,16 @@
                 </a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Proyectos</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonios</a>
+                    <a class="nav-link" href="#testimonio">Testimonios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ">Contactos</a>
+                    <a class="nav-link" href="#contactos">Contacto</a>
                 </li>
                 </ul>
             </div>
@@ -58,7 +58,7 @@
 
     <!-- Seccion sobre mi -->
 
-    <section class="sobre-mi seccion-oscura">
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
         <div class="contenedor text-center">
             <h2 class="seccion-titulo">Conoce a Diego Navarro</h2>
             <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cumque ut culpa nesciunt. Nostrum labore eius possimus? Iure dolorum ducimus labore amet saepe illo quam explicabo, nostrum quae tempora vitae.
@@ -113,7 +113,7 @@
 
     <!-- Proyectos -->
 
-    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
         <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
         <h3 class="seccion-descripcion">Estos son algunos proyectos que eh creado recientemente...</h3>
         <div class="container text-center proyectos-contenedor">
@@ -276,7 +276,7 @@
 
     <!-- Testomonio -->
 
-    <section class="testimonio seccion-clara">
+    <section id="testimonio" class="testimonio seccion-clara">
         <h2 class="seccion-titulo">Testimonio</h2>
         <h3 class="seccion-descripcion" >Estos son algunos testimonio de mis colegas</h3>
 
@@ -325,8 +325,57 @@
 
     </section>
 
+    <!-- Contactos -->
 
+    <section id="contactos" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center d-flex justify-content-evenly retangulo">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contactame para iniciar tu proyecto de desarrollo web y haré que tu vision se vuelva realidad
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:diegoyur20012015@gmail.com">
+                            <button type="button">
+                                Contactos
+                                <i class="bi bi-envelope-at-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+ 
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/icono-blanco.svg" alt="Logo del Portafolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los dias. <br>Creemos un proyecto juntos</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto:diegoyur20012015@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>
+        </div>
+        <div class="derecho-de-autor">Creado por Diego Alejandro Navarro Quintero (2023) &#169;</div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
